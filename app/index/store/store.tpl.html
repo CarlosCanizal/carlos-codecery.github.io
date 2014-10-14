@@ -1,0 +1,7 @@
+<div class="products-list" class="clearfix">
+  <div  class="show-product" ng-repeat="product in products">
+    <h3>{{product.name}}</h3>
+    <p>${{product.price}}</p>
+    <a class="pure-button" ng-click="addToCart(1,product)">Agregar a carrito</a>
+  </div>
+</div>
