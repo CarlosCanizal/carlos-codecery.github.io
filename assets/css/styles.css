@@ -47,7 +47,7 @@ body{
 
 #stay-in-touch{
   padding: 2rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   border-top: 3px #333 solid;
   background-color: #ef0f57;
   overflow: auto;
@@ -126,6 +126,16 @@ body{
 .hi-icon-wrap{
   padding: 0;
   padding-bottom: 2rem;
+}
+
+.button-custom{
+  background-color: transparent;
+  border: solid 2px #FFF;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  color:#FFF;
+  margin: 3rem auto 0 auto;
+  border-radius: 1rem;
 }
 
 
