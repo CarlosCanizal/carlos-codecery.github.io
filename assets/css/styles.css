@@ -138,6 +138,11 @@ body{
   border-radius: 1rem;
 }
 
+.mailus{
+  margin-top:2rem;
+  font-size: 2rem;
+}
+
 
 @font-face {
   font-family: 'alex_brushregular';
