@@ -16,6 +16,10 @@ body{
   font-size: 7rem;
 }
 
+.center-box{
+  margin: 0 auto;
+}
+
 #header .subtitle{
   display: block;
   font-family: 'aleoitalic';
