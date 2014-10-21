@@ -9,8 +9,8 @@ var myApp = angular.module('myApp', [
 ]);
 
 // // Initialize the main module
-myApp.run(['$rootScope', function ($rootScope) {
-  
+myApp.run(['$rootScope','Parse', function ($rootScope, Parse) {
+  Parse.initialize();
 }]);
 
 // Configure the main module

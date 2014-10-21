@@ -102,9 +102,21 @@
   </div>
   <div class="pure-g align-center">
     <div class="pure-u-1 email">
-      <input type="email" placeholder="john_connor@skynet.com" />
+      <form name="keepMePostForm" novalidate>
+        <input name ="email" type="email" placeholder="john_connor@skynet.com" ng-model="email" required/>
+      </form>
     </div>
-    <button class="pure-button button-custom">Keep Me Posted!</button>
+    <button class="pure-button button-custom" ng-click="sendEmail()">Keep Me Posted!</button>
+
+  </div>
+  <div ng-show="error" class="error align-center">
+    {{error}}
+  </div>
+  <div ng-show="keepMePostForm.$invalid && !keepMePostForm.$pristine" class="error align-center">
+    Please entera a valid Email.
+  </div>
+  <div ng-show="success && keepMePostForm.$pristine" class="success align-center">
+    {{success}}
   </div>
   <div class="align-center mailus">
     <span>boba_fett@crowdpark.io</span>

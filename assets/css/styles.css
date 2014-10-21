@@ -143,6 +143,17 @@ body{
   font-size: 2rem;
 }
 
+.error{
+  margin-top: 1.5rem;
+  color: yellow;
+  font-size: 1.3rem;
+}
+
+.success{
+  margin-top: 1.5rem;
+  color: #333;
+  font-size: 1.3rem;
+}
 
 @font-face {
   font-family: 'alex_brushregular';
